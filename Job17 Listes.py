@@ -1,10 +1,10 @@
 #Ma fonction valeurs indéfinies only nombre
-def my_function(*kekw:int):
+def Dalida(*kekw:int):
 
-    #Ma liste de nombre      
+    #Ma liste de nombres     
     myList = []
 
-    #Boucle si pas numérique
+    #Boucle si pas des nombres, on prévient !
     for lol in kekw:
         if isinstance(lol,(int)):
             myList.append(lol)
@@ -21,4 +21,4 @@ def my_function(*kekw:int):
             print(num, end=" ")
 
 #Test
-my_function(87, 897, 98, 3.2)
+Dalida(87, 897, 98, 3.2)

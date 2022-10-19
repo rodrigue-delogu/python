@@ -3,7 +3,9 @@ def myAddition(a,b):
     
     #Variable de l'addition
     result = a + b
-    print(result)
+    
+    #Retour de l'addition
+    return result
 
 #Test
 myAddition(2,8)

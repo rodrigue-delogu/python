@@ -1,7 +1,7 @@
 #Ma fonction valeurs indéfinies only nombre
-def my_function(*kekw:int):
+def ClaudeFrançois(*kekw:int):
 
-    #Ma liste de nombre      
+    #Ma liste de nombres
     myList = [*kekw]
     myList.sort()
         
@@ -9,4 +9,4 @@ def my_function(*kekw:int):
     print(myList)
 
 #Test
-my_function(87, 897, 98, 3)
+ClaudeFrançois(87, 897, 98, 3)
