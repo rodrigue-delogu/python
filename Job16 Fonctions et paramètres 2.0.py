@@ -1,6 +1,6 @@
 #Fonction 
-def my_function(*kekw):
+def dalida(*kekw):
     print(*kekw)
     
 #Test
-my_function("sqdqsd", "54587")
+dalida("sqdqsd", "54587")

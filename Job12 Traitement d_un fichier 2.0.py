@@ -7,7 +7,7 @@ data = open("data.txt", "r")
 #Lecture du fichier
 kekw = data.read()
 
-#Ma recherche et mon filtre
+#Variable de la recherche et le filtre
 x = re.findall("\W+", kekw)
 
 #Résultat

@@ -1,6 +1,6 @@
 #Fonction prénom et nom
-def my_function(p, n):
+def FrancisCabrel(p, n):
     print("Bonjour", p, n)
 
 #Test
-my_function("rodrigue", "delogu")
+FrancisCabrel("rodrigue", "delogu")

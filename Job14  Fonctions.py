@@ -1,6 +1,6 @@
 #Fonction Je suis une fonction !!!!!
-def my_function():
+def JacquesBrel():
     print("Je suis une fonction")
 
 #Test
-my_function()
+JacquesBrel()

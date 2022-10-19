@@ -1,10 +1,10 @@
 #Ma fonction valeurs indéfinies only nombre
-def my_function(*kekw:int):
+def LaurentVoulzy(*kekw:int):
 
     #Ma liste de nombre      
     num = [*kekw]
 
-    #Création des boucles 
+    #Création des boucles afin de comparer deux nombres via leurs positions
     for i in range(len(num)):
         for j in range(len(num)):
 
@@ -18,6 +18,6 @@ def my_function(*kekw:int):
     print(num)
 
 #Test
-my_function(87, 897, 98, 3)
+LaurentVoulzy(87, 897, 98, 3)
 
 #Thanks to Abraham for the lesson "how to think in python", this guy is incredible !

@@ -25,4 +25,4 @@ else:
     #Impression de la dernière ligne
     print("|" + largeur + "|")
 
-#Merci à Félix pour les petits tips !
+#Merci à Félix pour les tips et l'explication ! |---|-',
